@@ -5,6 +5,6 @@ int main()
 {
   int n;
   cin >> n;
-  cout << 'Total number of Squares in a '<< n << '*' << n << 'chessboard are: ' << (n*(n+1)*(2n+1))/2;
+  cout << "Total number of Squares in a " << n << "*" << n << " chessboard are: " << (n * (n + 1) / 2) * (2*n + 1) / 3;
   return 0;
 }
