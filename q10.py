@@ -8,5 +8,5 @@ def maxNumbers(nums, n):
         heapq.heappush(heap,i)
     return heapq.nlargest(n,nums)
   
-  arr = list(map(int,input().split()))
-  maxNumbers(arr,10)
+arr = list(map(int,input().split()))
+maxNumbers(arr,10)
