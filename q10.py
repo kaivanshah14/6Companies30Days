@@ -9,4 +9,4 @@ def maxNumbers(nums, n):
     return heapq.nlargest(n,nums)
   
 arr = list(map(int,input().split()))
-maxNumbers(arr,10)
+print(maxNumbers(arr,10))
